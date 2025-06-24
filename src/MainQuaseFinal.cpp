@@ -7,12 +7,12 @@
 
 using namespace std;
 
-#include "Produto.cpp"
-#include "ProdutoQuilo.cpp"
-#include "ProdutoUnidade.cpp"
-#include "Pedido.cpp"
-#include "Estoque.cpp"
-#include "Empresa.cpp"
+#include "Produto.h"
+#include "ProdutoQuilo.h"
+#include "ProdutoUnidade.h"   //antes todos .cpp e funcionando
+#include "Pedido.h"
+#include "Estoque.h"
+#include "Empresa.h"
 
 int main() {
     int escolha;
@@ -24,7 +24,7 @@ int main() {
     Empresa empresa;
 
     do {
-        cout << "insira a opção: " << endl;
+        cout << "insira a opÃ§Ã£o: " << endl;
         cout << "1. Funcionario: " << endl;
         cout << "2. Administrador: " << endl;
         cout << "0. sair do sistema: " << endl;
