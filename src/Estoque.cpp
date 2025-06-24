@@ -3,7 +3,7 @@
 Estoque::Estoque(){//viabilizar a criação de dois arquivos "estoqueU.txt" e "estoqueQ.txt" aqui...
 	//implementação "estoqueU.txt"
 	ifstream arquivo; // arquivo de leitura
-	arquivo.open("data/estoqueU.txt"); // abre arquivo
+	arquivo.open("data/estoqueU.txt"); // abre arquivo... antes sem o /data
 
 	//Definição da variavéis necessárias seguindo a ordem de hierarquia das classes...(1° classe Produto---> 2°ProdutoUnidade)
 
@@ -39,7 +39,7 @@ Estoque::Estoque(){//viabilizar a criação de dois arquivos "estoqueU.txt" e "e
 					cout<<"Não foi possível abrir o arquivo"<<endl;
 	 }
 	 ifstream arquivo1; // arquivo de leitura
-	arquivo1.open("data/estoqueQ.txt"); // abre arquivo
+	arquivo1.open("data/estoqueQ.txt"); // abre arquivo... antes sem o /data
 
 	//Definição da variavéis necessárias seguindo a ordem de hierarquia das classes...(1° classe Produto---> 2°ProdutoUnidade)
 
